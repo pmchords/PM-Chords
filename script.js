@@ -3,15 +3,10 @@ const shareButton = document.getElementById("share-button");
 const aboutLink = document.getElementById("about-link");
 const aboutPopover = document.getElementById("about-popover");
 
-let cartCount = 0;
-
 if (button) {
-  button.addEventListener("click", () => {
-    cartCount += 1;
-    button.textContent = "Sold Out";
-    button.disabled = true;
-    button.style.opacity = "0.8";
-  });
+  button.textContent = "Sold Out";
+  button.disabled = true;
+  button.style.opacity = "0.8";
 }
 
 if (shareButton) {
