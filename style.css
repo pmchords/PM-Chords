@@ -120,55 +120,20 @@ img {
 }
 
 .hero-card {
-  padding: 28px;
-  display: grid;
-  place-items: center;
+  padding: 24px 28px;
+  min-height: 170px;
+  width: min(100%, 420px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-self: center;
 }
 
-.tee-visual {
-  position: relative;
-  width: 140px;
-  height: 170px;
-  margin-bottom: 8px;
-}
-
-.tee-neck {
-  width: 54px;
-  height: 40px;
-  border-radius: 16px 16px 10px 10px;
-  background: var(--accent);
-  position: absolute;
-  left: 63px;
-  top: 24px;
-}
-
-.tee-body {
-  width: 120px;
-  height: 126px;
-  border-radius: 34px 34px 28px 28px;
-  background: linear-gradient(145deg, #1b1b1b, #3c3c3c);
-  position: absolute;
-  left: 30px;
-  top: 56px;
-}
-
-.tee-sleeve {
-  width: 36px;
-  height: 92px;
-  border-radius: 20px;
-  background: #222;
-  position: absolute;
-  top: 72px;
-}
-
-.tee-sleeve.left {
-  left: 10px;
-  transform: rotate(16deg);
-}
-
-.tee-sleeve.right {
-  right: 12px;
-  transform: rotate(-16deg);
+.hero-image {
+  width: min(280px, 100%);
+  height: auto;
+  display: block;
+  object-fit: contain;
 }
 
 .product-card {
