@@ -8,7 +8,7 @@ let cartCount = 0;
 if (button) {
   button.addEventListener("click", () => {
     cartCount += 1;
-    button.textContent = "Added to cart";
+    button.textContent = "Sold Out";
     button.disabled = true;
     button.style.opacity = "0.8";
   });

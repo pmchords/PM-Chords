@@ -277,9 +277,9 @@ img {
 .about-popover {
   position: absolute;
   top: calc(100% + 8px);
-  left: -20px;
+  left: -32px;
   transform: none;
-  width: min(300px, 80vw);
+  width: min(280px, 76vw);
   background: var(--panel);
   border: 1px solid rgba(17, 17, 17, 0.08);
   border-radius: 14px;
