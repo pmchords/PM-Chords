@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PM Chords</title>
+    <meta
+      name="description"
+      content="PM Chords offers a refined, minimalist T-Shirt designed for everyday style."
+    />
+    <meta property="og:url" content="/store/" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.cdnfonts.com/css/ro-spritendo" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <a class="brand" href="#">PM Chords</a>
+        <nav class="topnav">
+          <a href="#store">Shop</a>
+          <div class="about-wrapper">
+            <a href="#" id="about-link" class="about-link">About</a>
+            <div class="about-popover" id="about-popover" hidden>
+              <p>Each piece is only made after an order is placed. This way, we don't produce unnecessary stock and avoid overproduction.</p>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero" id="about">
+          <div class="hero-copy">
+            <h1>Inspired by guitar culture.</h1>
+            <p class="hero-text">
+              Discover essential items for a calm, modern look, crafted with simple lines and a thoughtful approach.
+            </p>
+          </div>
+
+          <div class="hero-card" aria-label="Featured product preview">
+            <div class="tee-visual">
+              <div class="tee-neck"></div>
+              <div class="tee-body"></div>
+              <div class="tee-sleeve left"></div>
+              <div class="tee-sleeve right"></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="product-section" id="store">
+          <article class="product-card">
+            <div class="product-image">
+              <div class="shirt-outline"></div>
+            </div>
+
+            <div class="product-details">
+              <p class="eyebrow">Limited edition</p>
+              <h2>T-Shirt PM Chords</h2>
+              <p class="price">14.99€</p>
+              <p class="description">
+                Soft cotton, clean silhouette, and a refined black finish made to wear every day.
+              </p>
+
+              <div class="product-meta">
+                <span>Unisex</span>
+                <span>100% Cotton</span>
+              </div>
+
+              <div class="product-actions">
+                <button class="btn btn-secondary" id="add-to-cart">Add to cart</button>
+                <button class="btn btn-share" id="share-button" type="button">Share</button>
+              </div>
+            </div>
+          </article>
+        </section>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
