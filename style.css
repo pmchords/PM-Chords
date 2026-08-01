@@ -262,6 +262,11 @@ img {
   border: 1px solid rgba(17, 17, 17, 0.16);
   padding: 8px 12px;
   font-size: 0.85rem;
+  line-height: 1.2;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
 }
 
 .about-wrapper {
