@@ -39,22 +39,12 @@ img {
 }
 
 .brand {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.4rem;
   text-decoration: none;
   color: var(--text);
   font-weight: 700;
   font-size: 0.95rem;
   letter-spacing: 0.04em;
   text-transform: none;
-}
-
-.brand-logo {
-  width: 1.4em;
-  height: auto;
-  display: block;
-  object-fit: contain;
 }
 
 .topnav {
