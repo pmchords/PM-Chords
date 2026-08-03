@@ -123,7 +123,7 @@ img {
   box-shadow: none;
   padding: 0;
   width: auto;
-  max-width: 420px;
+  max-width: 220px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -131,8 +131,8 @@ img {
 }
 
 .hero-image {
-  width: min(200px, 100%);
-  height: auto;
+  width: 150px;
+  height: 150px;
   display: block;
   object-fit: contain;
   background: transparent;
