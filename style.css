@@ -131,8 +131,8 @@ img {
 }
 
 .hero-image {
-  width: 150px;
-  height: 150px;
+  width: 120px;
+  height: 120px;
   display: block;
   object-fit: contain;
   background: transparent;
