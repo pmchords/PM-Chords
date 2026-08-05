@@ -17,6 +17,7 @@ body {
   font-family: "RO Spritendo", "Inter", sans-serif;
   background: var(--bg);
   color: var(--text);
+  overflow-x: auto;
 }
 
 img {
@@ -26,6 +27,7 @@ img {
 
 .page-shell {
   max-width: 1180px;
+  min-width: 980px;
   margin: 0 auto;
   padding: 24px;
 }
@@ -282,17 +284,7 @@ img {
 }
 
 @media (max-width: 800px) {
-  .hero,
-  .product-card {
-    grid-template-columns: 1fr;
-  }
-
-  .topbar {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .product-image {
-    min-height: 280px;
+  .page-shell {
+    padding: 16px;
   }
 }
