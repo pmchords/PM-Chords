@@ -1,9 +1,9 @@
 :root {
-  color-scheme: light;
-  --bg: #f6f1eb;
+  color-scheme: dark;
+  --bg: #2A2622;
   --panel: #fefbf5;
-  --text: #1d1a17;
-  --muted: #6e655c;
+  --text: #E8E0D5;
+  --muted: #B9AEA2;
   --accent: #111111;
   --accent-soft: #e8ded2;
 }
@@ -15,7 +15,7 @@
 body {
   margin: 0;
   font-family: "RO Spritendo", "Inter", sans-serif;
-  background: linear-gradient(135deg, #f7efe7 0%, var(--bg) 100%);
+  background: var(--bg);
   color: var(--text);
 }
 
@@ -111,6 +111,8 @@ img {
   box-shadow: 0 8px 24px rgba(17, 17, 17, 0.12);
 }
 
+/* Product Card stays exactly the same */
+
 .product-card {
   border-radius: 24px;
   background: var(--panel);
@@ -186,6 +188,13 @@ img {
   background: var(--panel);
 }
 
+/* Keep the product card text dark */
+
+.product-details h2,
+.product-details .price {
+  color: #1d1a17;
+}
+
 .price {
   font-size: 1.45rem;
   font-weight: 700;
@@ -193,7 +202,7 @@ img {
 }
 
 .description {
-  color: var(--muted);
+  color: #6e655c;
   line-height: 1.45;
   font-size: 0.82rem;
   margin-bottom: 14px;
@@ -212,6 +221,7 @@ img {
   background: var(--accent-soft);
   border-radius: 999px;
   font-size: 0.82rem;
+  color: #1d1a17;
 }
 
 .btn-secondary {
@@ -225,9 +235,11 @@ img {
   flex-wrap: wrap;
 }
 
+/* Keep buttons exactly as before */
+
 .btn-share {
   background: transparent;
-  color: var(--text);
+  color: #1d1a17;
   border: 1px solid rgba(17, 17, 17, 0.16);
   padding: 8px 12px;
   font-size: 0.85rem;
@@ -266,7 +278,7 @@ img {
   margin: 0;
   font-size: 0.78rem;
   line-height: 1.5;
-  color: var(--muted);
+  color: #6e655c;
 }
 
 @media (max-width: 800px) {
